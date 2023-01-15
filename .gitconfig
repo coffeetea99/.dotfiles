@@ -1,0 +1,16 @@
+[user]
+        name = Jinje Han
+        email = coffeetea99iro@gmail.com
+[core]
+        excludesfile = ~/.gitignore_global
+[init]
+        defaultBranch = main
+[merge]
+	conflictstyle = diff3
+[pull]
+	rebase = true
+[alias]
+        compare = log --oneline --no-merges
+        drop = !git add . && git stash && git stash drop
+        pullr = "!git fetch origin \"$1\":\"$1\" #"
+        adog = log --all --decorate --oneline --graph
