@@ -3,6 +3,7 @@
 	email = coffeetea99iro@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = vim
 [init]
 	defaultBranch = main
 [merge]
